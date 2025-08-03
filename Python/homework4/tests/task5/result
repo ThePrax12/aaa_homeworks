@@ -1,0 +1,27 @@
+$coverage run -m unittest -v  task5.py
+
+test_invalid_date_format (task5.TestWhatIsYearNow)
+Тестирует обработку неверного формата даты. ... ok
+test_missing_current_datetime_field (task5.TestWhatIsYearNow)
+Тестирует ситуацию, когда в ответе от API отсутствует поле 'currentDateTime'. ... ok
+test_network_error (task5.TestWhatIsYearNow)
+Тестирует обработку сетевой ошибки, когда API не доступно. ... ok
+test_valid_dmy_format (task5.TestWhatIsYearNow)
+Тестирует корректную работу функции для формата даты DD.MM.YYYY. ... ok
+test_valid_ymd_format (task5.TestWhatIsYearNow)
+Тестирует корректную работу функции для формата даты YYYY-MM-DD. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+
+
+$coverage report
+
+Name                  Stmts   Miss  Cover
+-----------------------------------------
+task5.py                 34      1    97%
+what_is_year_now.py      24      4    83%
+-----------------------------------------
+TOTAL                    58      5    91%

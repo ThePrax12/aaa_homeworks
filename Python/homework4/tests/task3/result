@@ -1,0 +1,17 @@
+$ python -m unittest -v task3.py
+
+test_category_not_in_result (task3.TestOneHotEncoder)
+Проверка, что категория, не переданная в функцию, отсутствует в результате ... ok
+test_duplicate_categories (task3.TestOneHotEncoder)
+Проверка кодировки с повторяющимися элементами ... ok
+test_multiple_categories (task3.TestOneHotEncoder)
+Проверка кодировки нескольких категорий ... ok
+test_no_arguments (task3.TestOneHotEncoder)
+Проверка на вызов функции без аргументов ... ok
+test_single_category (task3.TestOneHotEncoder)
+Проверка кодировки одной категории ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
